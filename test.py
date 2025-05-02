@@ -15,3 +15,7 @@ params = {
 
 response = requests.get(url, params=params)
 response.text
+
+
+def print_hi(name)
+    return print(f'Hi, {name}')
